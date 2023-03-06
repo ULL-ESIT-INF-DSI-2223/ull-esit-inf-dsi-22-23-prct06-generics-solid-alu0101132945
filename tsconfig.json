@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "./tests",
+    "./node_modules",
+    "./dist"
+  ],
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "commonjs",
+      "rootDir": "./src",
+      "outDir": "./dist"
+    },
+    "typedocOptions":{
+    "entryPoints": [
+      "./src/Ejercicio-1/artista.ts",
+      "./src/Ejercicio-1/biblioteca.ts",
+      "./src/Ejercicio-1/cancion.ts",
+      "./src/Ejercicio-1/disco.ts",
+      "./src/Ejercicio-2/juego.ts",
+      "./src/Ejercicio-2/jugador.ts",
+      "./src/Ejercicio-2/tablero.ts",
+      "./src/PE102/ejercicio-1.ts",
+    ],
+    "out": "./docs"
+  }
+}
