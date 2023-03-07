@@ -4,7 +4,7 @@ import {Pelicula} from '../src/Ejercicio-1/objects';
 import { Serie } from '../src/Ejercicio-1/objects';
 import {Documental} from '../src/Ejercicio-1/objects';
 
-describe('ArithmeticableCollection function tests', () => {
+describe('Objects methods tests', () => {
     it('Pelicula tests', () => {
         let pel1 = new Pelicula('Pelicula1', 2012, 'accion', 6)
         expect(pel1.getName()).to.be.equal('Pelicula1');
@@ -27,6 +27,6 @@ describe('ArithmeticableCollection function tests', () => {
         expect(doc1.getTemp()).to.be.equal(2);
         expect(doc1.getEpisode()).to.be.equal(12);
         expect(doc1.getTemat()).to.be.equal('ciencia');
-        expect(doc1.getVal()).to.be.equal(3);
+        expect(doc1.getVal()).to.be.equal(8);
     });
 });
