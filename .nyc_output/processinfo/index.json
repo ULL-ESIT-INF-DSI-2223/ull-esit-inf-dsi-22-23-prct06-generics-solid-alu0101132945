@@ -1,0 +1,1 @@
+{"processes":{"73a682e8-7559-47fe-b079-7752fdf6c9ef":{"parent":null,"children":["ebf64af7-a555-4a5f-ab5b-6c9809d6143a"]},"ebf64af7-a555-4a5f-ab5b-6c9809d6143a":{"parent":"73a682e8-7559-47fe-b079-7752fdf6c9ef","children":[]}},"files":{"/home/Carlos/workspace/DSI/2022-2023/pract06/src/Ejercicio-1/objects.ts":["ebf64af7-a555-4a5f-ab5b-6c9809d6143a"]},"externalIds":{}}

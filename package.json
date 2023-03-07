@@ -1,5 +1,5 @@
 {
-  "name": "pract05",
+  "name": "pract06",
   "version": "1.0.0",
   "description": "",
   "main": "basicFunctions.js",
@@ -7,7 +7,7 @@
     "dev": "tsc-watch --onSuccess \"node dist/pruebas.js\"",
     "doc": "typedoc",
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output"
+    "coverage": "nyc npm test && nyc report --reporter=lcov"
   },
   "keywords": [],
   "author": "",
