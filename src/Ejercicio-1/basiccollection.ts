@@ -1,4 +1,4 @@
-abstract class BasicStreamableCollection<T> implements Streamable<T> {
+export abstract class BasicStreamableCollection<T> implements Streamable<T> {
     constructor(protected items: T[]){}
     /**
      * metodo que añade un objeto generico a la lista de objetos de streaming

@@ -1,3 +1,4 @@
+import { BasicStreamableCollection } from "./basiccollection";
 import {Serie} from "./objects";
 
 export class SerieCollection extends BasicStreamableCollection<Serie>{
@@ -11,31 +12,31 @@ export class SerieCollection extends BasicStreamableCollection<Serie>{
     }
 
     /**
-     * metodo para añadir una pelicula a la coleccion
-     * @param item pelicula que se va a añadir
+     * metodo para añadir una serie a la coleccion
+     * @param item serie que se va a añadir
      */
     public add(item: Serie): void {
         super.add(item);
     }
 
     /**
-     * metodo que borra peliculas de la coleccion
-     * @param item pelicula que va a ser borrada
+     * metodo que borra series de la coleccion
+     * @param item serie que va a ser borrada
      */
     public delete(item: Serie): void {
         super.delete(item);
     }
 
     /**
-     * metodo que devuelve la lista de peliculas de la coleccion
-     * @returns la lista de peliculas
+     * metodo que devuelve la lista de series de la coleccion
+     * @returns la lista de series
      */
     public getAll(): Serie[] {
         return super.getAll();
     }
 
     /**
-     * metodo que devuelve el tamaño de la lista de peliculas
+     * metodo que devuelve el tamaño de la lista de series
      * @returns un number con el tamaño de la lista
      */
     public getCont(): number {

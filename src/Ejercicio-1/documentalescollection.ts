@@ -1,3 +1,4 @@
+import { BasicStreamableCollection } from "./basiccollection";
 import {Documental} from "./objects";
 
 export class DocumentalCollection extends BasicStreamableCollection<Documental>{
