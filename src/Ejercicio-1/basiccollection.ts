@@ -1,3 +1,5 @@
+import { Streamable } from "./stremeable";
+
 export abstract class BasicStreamableCollection<T> implements Streamable<T> {
     constructor(protected items: T[]){}
     /**

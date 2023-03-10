@@ -35,7 +35,7 @@ interface Sortable<T> {
     sortByLeng(): T[];
 }
 
-interface Streamable<T> extends Searchable<T>, Sortable<T>{
+export interface Streamable<T> extends Searchable<T>, Sortable<T>{
     /**
      * definicion de un metodo que añade un objeto a la coleccion de objetos de streaming
      * @param item objeto que va a ser añadido a la coleccion
