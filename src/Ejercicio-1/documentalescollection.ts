@@ -15,7 +15,7 @@ export class DocumentalCollection extends BasicStreamableCollection<Documental>{
      * metodo para añadir un documental a la coleccion
      * @param item documental que se va a añadir
      */
-     public add(item: Documental): void {
+    public add(item: Documental): void {
         super.add(item);
     }
 
